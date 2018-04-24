@@ -1,2 +1,3 @@
 # dynuClient
-PHP dynu.com client to update multiple domains ipv4 and ipv6
+PHP client for dynu.com to update multiple domains ipv4 and ipv6
+
