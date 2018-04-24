@@ -19,8 +19,6 @@ curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
 $ip = curl_exec($ch); 
 $ip = trim(str_replace("Current IP Address:",'',$ip)); 
 
-$result =''; 
-
 foreach($domains as $value ){ 
         $url = "https://api.dynu.com/nic/update?hostname=$value&password=$password&myip=$ip"; 
         curl_setopt($ch,CURLOPT_URL,$url); 
